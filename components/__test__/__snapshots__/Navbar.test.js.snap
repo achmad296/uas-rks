@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders properly 1`] = `
+"<nav class=\\"navbar\\">
+  <div class=\\"navbar-container\\"><a id=\\"navbar-logo\\" href=\\"/\\"><img src=\\"~assets/logo/main-logo.svg\\" alt=\\"\\"></a>
+    <div class=\\"mobile-title\\">
+      <h2>Menu</h2>
+    </div>
+    <div id=\\"mobile-menu\\" class=\\"navbar-toggle\\"><span class=\\"bar\\"></span> <span class=\\"bar\\"></span> <span class=\\"bar\\"></span></div>
+    <ul class=\\"navbar-menu d-inline-flex flex-column\\">
+      <li class=\\"navbar-item\\">
+        <nuxt-link to=\\"/pinjaman\\" class=\\"navbar-links body-2\\">Pinjaman</nuxt-link>
+      </li>
+      <li class=\\"navbar-item\\">
+        <nuxt-link to=\\"/pendanaan\\" class=\\"navbar-links body-2\\">Pendanaan</nuxt-link>
+      </li>
+      <li class=\\"vertical-line\\"></li>
+      <li class=\\"navbar-btn mr-lg-3\\">
+        <nuxt-link to=\\"/account#login\\">
+          <y-btn label=\\"Masuk\\" type=\\"secondary\\"></y-btn>
+        </nuxt-link>
+      </li>
+      <li class=\\"navbar-btn\\">
+        <nuxt-link to=\\"/account#register\\">
+          <y-btn label=\\"Daftar\\"></y-btn>
+        </nuxt-link>
+      </li>
+    </ul>
+  </div>
+</nav>"
+`;
